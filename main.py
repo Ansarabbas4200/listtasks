@@ -46,7 +46,7 @@
 #
 # print(f"Here is the list of values \n{user_list}\n")
 #
-# # TODO 2: write a method with fixed length of list 5.
+# # TODO 2 & 3: write a method with fixed length of list 5.
 # #  if user enter more then 5th value in the list bottom value should be removed
 # #  and new value should be added at the top of list
 #
@@ -82,6 +82,8 @@
 #     if new_ID == "done":
 #         break
 #
+# TODO 4: write a method which can create a multi die-mention array by getting number of values of first
+#  list and number of values for the associative list, display the list as value in table formate
 num_rows = int(input("Enter the number of rows: "))
 num_cols = int(input("Enter the number of columns: "))
 my_array = []
